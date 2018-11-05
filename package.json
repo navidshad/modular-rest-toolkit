@@ -1,6 +1,6 @@
 {
   "name": "modular-rest-toolkit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a set of tools for working on an API ",
   "main": "index.js",
   "scripts": {
