@@ -1,0 +1,25 @@
+{
+  "name": "modular-rest-toolkit",
+  "version": "0.0.1",
+  "description": "a set of tools for working on an API ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navidshad/modular-rest-toolkit.git"
+  },
+  "keywords": [
+    "tools",
+    "api",
+    "modular-rest",
+    "toolkit"
+  ],
+  "author": "Navid Shad <navidshad72@gmail.com> (http://navid-shad.ir)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/navidshad/modular-rest-toolkit/issues"
+  },
+  "homepage": "https://github.com/navidshad/modular-rest-toolkit#readme"
+}
