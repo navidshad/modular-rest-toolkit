@@ -99,7 +99,7 @@ tools.removeFile(path);
 thank you for using Modular-Rest-toolkit :)
 
 ## update log
-- 0.1.1
+- 0.1.2
     - added createNavigator method.
     - added saveFromLink method
     - added removeFile method
