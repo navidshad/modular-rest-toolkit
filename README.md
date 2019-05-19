@@ -8,6 +8,7 @@ is a group of tools for developing Rest-APIs.
 3. `createNavigator`: return an object with navigator properties.
 4. `saveFromLink`: save file from a URL.
 5. `removeFile` : remove a file.
+6. `sleep` : return a promse wich could waite for milliseconds.
 
 ## Install 
 
@@ -96,9 +97,17 @@ tools.saveFromLink(url, saveAs);
 ```js
 tools.removeFile(path);
 ```
+
+### 6. `sleep`
+```js
+let ms = 1000;
+await tools.sleep(ms).then();
+```
 thank you for using Modular-Rest-toolkit :)
 
 ## update log
+- 0.1.5
+    - added sleep
 - 0.1.4
     - added createNavigator method.
     - added saveFromLink method
