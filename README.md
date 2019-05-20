@@ -66,8 +66,19 @@ let form = {
     'city'  : 'your city'
 };
 
+// simple validation
 let validated = tools.validateObject(form, 'name phone');
 // returned {isValid: false, requires: ['phone']}
+
+
+// precise validation
+let option = {
+    name    : '',           // could has any value except null
+    phone   : '',           // could has any value except null
+    city    ; 'c1 c2 c3',   // could has only one of these values.
+};
+let validated2 = tools.validateObject(form, option);
+// returned {isValid: false, requires: ['phone', 'city']}
 ```
 
 ### 3. 'createNavigator'
@@ -104,16 +115,3 @@ let ms = 1000;
 await tools.sleep(ms).then();
 ```
 thank you for using Modular-Rest-toolkit :)
-
-## update log
-- 0.1.5
-    - added sleep
-- 0.1.4
-    - added createNavigator method.
-    - added saveFromLink method
-    - added removeFile method
-- 0.1.0
-    - change the 'replyGenerator' method to 'reply'.
-    - added 'validateObject' method.
-- 0.0.6
-    - start point
